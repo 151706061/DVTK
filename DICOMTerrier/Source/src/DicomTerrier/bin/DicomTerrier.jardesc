@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jardesc>
+<jar path="C:/DicomTerrier/lib/dicomterrier-1.0.jar"/>
+<options buildIfNeeded="true" compress="true" descriptionLocation="/DicomTerrier/DicomTerrier.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" useSourceFolders="false"/>
+<manifest generateManifest="true" mainClassHandleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.applications.desktop{DesktopTerrier.java[DesktopTerrier" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+<sealing sealJar="false">
+<packagesToSeal/>
+<packagesToUnSeal/>
+</sealing>
+</manifest>
+<selectedElements exportClassFiles="false" exportJavaFiles="false" exportOutputFolder="true">
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.indexing"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.utility"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.applications.desktop"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.matching.models"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.matching.tsms"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.terms"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.applications.desktop.filehandling"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.querying"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.matching.models.tagmodel"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.matching"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.structures.indexing"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.querying.parser"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.structures.dicom"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.structures"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.matching.dsms"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.structures.trees"/>
+<javaElement handleIdentifier="=DicomTerrier/&lt;uk.ac.gla.terrier.compression"/>
+</selectedElements>
+</jardesc>

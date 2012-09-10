@@ -1,0 +1,31 @@
+Change history for library: scripting
+-------------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 01/12/2005
+Version: 2.1.006
+Change Description: Added support for the User Identity Negotiation.
+<------------------------------------------------------------------------------>
+Date: 29/05/2006
+Version: 2.1.007
+Change Description: Fixed PR 163 - there was a problem with the expansion of the keywords
+TODAY and NOW into todays date and time - it was causing a buffer overrun. The script 
+attribute value handling was modified in an earlier release and this overrun not foreseen.
+Changed files: parserfuncs.cpp
+<------------------------------------------------------------------------------>
+Date: 15/11/2006
+Version: After 2.1.006.006
+Change Description: Solved PR 273. Made the lexer robust against non-printable 
+characters. Lexer was returning without lexing anything - result was that the file
+was not parsed - this gave a run time error #3 - the variable 'x' is being used
+without being defined.
+<------------------------------------------------------------------------------>
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<structuredReports xmlns="http://www.dvtk.org/schemas/SRValidationResult.xsd">
+  <structuredReport>
+    <template identifier="">
+      <name>
+        <value />
+      </name>
+      <contentItems>
+        <contentItem identifier="" level="">
+          <relationship>
+            <value />
+          </relationship>
+          <valueType>
+            <value />
+          </valueType>
+          <valueTypeSpecific>
+            <text>
+              <value />
+            </text>
+            <num>
+              <measuredValue>
+                <numericValue>
+                  <value />
+                </numericValue>
+                <measurementUnits>
+                  <conceptCode>
+                    <codeValue>
+                      <value />
+                    </codeValue>
+                    <codingSchemeDesignator>
+                      <value />
+                    </codingSchemeDesignator>
+                    <codingSchemeVersion>
+                      <value />
+                    </codingSchemeVersion>
+                    <codeMeaning>
+                      <value />
+                    </codeMeaning>
+                  </conceptCode>
+                </measurementUnits>
+              </measuredValue>
+              <numericValueQualifier>
+                <conceptCode>
+                  <codeValue>
+                    <value />
+                  </codeValue>
+                  <codingSchemeDesignator>
+                    <value />
+                  </codingSchemeDesignator>
+                  <codingSchemeVersion>
+                    <value />
+                  </codingSchemeVersion>
+                  <codeMeaning>
+                    <value />
+                  </codeMeaning>
+                </conceptCode>
+              </numericValueQualifier>
+            </num>
+            <code>
+              <conceptCode>
+                <codeValue>
+                  <value />
+                </codeValue>
+                <codingSchemeDesignator>
+                  <value />
+                </codingSchemeDesignator>
+                <codingSchemeVersion>
+                  <value />
+                </codingSchemeVersion>
+                <codeMeaning>
+                  <value />
+                </codeMeaning>
+              </conceptCode>
+            </code>
+            <datetime>
+              <value />
+            </datetime>
+            <date>
+              <value />
+            </date>
+            <time>
+              <value />
+            </time>
+            <uidref>
+              <value />
+            </uidref>
+            <pname>
+              <value />
+            </pname>
+            <composite>
+              <value />
+            </composite>
+            <image>
+              <value />
+            </image>
+            <waveform>
+              <value />
+            </waveform>
+            <scoord>
+              <value />
+            </scoord>
+            <scoord3d>
+              <value />
+            </scoord3d>
+            <tcoord>
+              <value />
+            </tcoord>
+            <container>
+              <value />
+            </container>
+          </valueTypeSpecific>
+          <conceptName>
+            <conceptCode>
+              <codeValue>
+                <value />
+                <validationResults>
+                  <validationResult>
+                    <message></message>
+                  </validationResult>
+                </validationResults>
+              </codeValue>
+              <codingSchemeDesignator>
+                <value />
+              </codingSchemeDesignator>
+              <codingSchemeVersion>
+                <value />
+              </codingSchemeVersion>
+              <codeMeaning>
+                <value />
+              </codeMeaning>
+            </conceptCode>
+          </conceptName>
+        </contentItem>
+      </contentItems>
+    </template>
+  </structuredReport>
+</structuredReports>

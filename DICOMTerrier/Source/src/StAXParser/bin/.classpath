@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/DicomTerrier/lib/jsr173.jar"/>
+	<classpathentry kind="lib" path="C:/DicomTerrier/lib/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="C:/DicomTerrier/lib/jsr173_1.0_ri.jar"/>
+	<classpathentry kind="lib" path="C:/DicomTerrier/lib/dicomterrier-1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,111 @@
+# Example DVT Dicom Script
+# Copyright (c) 2001-2005
+# Philips Medical Systems NL B.V., Agfa-Gevaert N.V.
+
+SESSION
+
+SESSION-TYPE media
+SESSION-FILE-VERSION 2
+
+# Product Test Session Properties
+SESSION-TITLE "Media Session"
+SESSION-ID 001
+MANUFACTURER "Manufacturer"
+MODEL-NAME "Product Name"
+SOFTWARE-VERSIONS "Version 1.2"
+APPLICATION-ENTITY-NAME "DICOM"
+APPLICATION-ENTITY-VERSION "3.0"
+TESTED-BY "DVT"
+DATE "20050131"
+
+# Test Session Properties
+LOG-ERROR true
+LOG-WARNING true
+LOG-INFO true
+LOG-RELATION false
+LOG-DEBUG false
+PDU-DUMP false
+STORAGE-MODE as-media
+DETAILED-VALIDATION-RESULTS true
+SUMMARY-VALIDATION-RESULTS true
+INCLUDE-TYPE-3-NOTPRESENT-INRESULTS false
+
+# Definitions
+DEFINITION-DIRECTORY "%COMMONPROGRAMFILES%\DVTk\Definition Files\DICOM\"
+DEFINITION "Cardiac Electrophysiology Waveform Storage.def"
+DEFINITION "Secondary Capture Image Storage.def"
+DEFINITION "Computed Radiography Image Storage.def"
+DEFINITION "Color Softcopy Presentation State Storage.def"
+DEFINITION "CT Image Storage.def"
+DEFINITION "Deformable Spatial Registration Storage.def"
+DEFINITION "Encapsulated PDF Storage.def"
+DEFINITION "Enhanced CT Image Storage.def"
+DEFINITION "Enhanced MR Image Storage.def"
+DEFINITION "Enhanced MR Color Image Storage.def"
+DEFINITION "Enhanced PET Image Storage.def"
+DEFINITION "Enhanced SR.def"
+DEFINITION "Enhanced XA Image Storage.def"
+DEFINITION "Enhanced XRF Image Storage.def"
+DEFINITION "MR Image Storage.def"
+DEFINITION "Hanging Protocol Storage.def" 
+DEFINITION "Hardcopy Color Image Storage.def"
+DEFINITION "Hardcopy Grayscale Image Storage.def"
+DEFINITION "Hemodynamic Waveform Storage.def"
+DEFINITION "Lensometry Measurement Storage.def"
+DEFINITION "Multi-frame Grayscale Byte Secondary Capture Image Storage.def"
+DEFINITION "Multi-frame Grayscale Word Secondary Capture Image Storage.def"
+DEFINITION "Multi-frame Single Bit Secondary Capture Image Storage.def"
+DEFINITION "Multi-frame True Color Secondary Capture Image  Storage.def"
+DEFINITION "Nuclear Medicine Image Storage.def"
+DEFINITION "Ophthalmic Photography 8 Bit Image Storage.def"
+DEFINITION "Ophthalmic Photography 16 Bit Image Storage.def"
+DEFINITION "Ophthalmic Tomography Image Storage.def"
+DEFINITION "Positron Emission Tomography Image Storage.def"
+DEFINITION "Pseudo-Color Softcopy Presentation State Storage.def"
+DEFINITION "Raw Data Storage.def"
+DEFINITION "Real World Value Mapping Storage.def"
+DEFINITION "RT Beams Treatment Record Storage.def"
+DEFINITION "RT Brachy Treatment Record Storage.def"
+DEFINITION "RT Dose Storage.def"
+DEFINITION "RT Image Storage.def"
+DEFINITION "RT Ion Plan Storage.def"
+DEFINITION "RT Structure Set Storage.def"
+DEFINITION "RT Treatment Summary Record Storage.def"
+DEFINITION "Spatial Fiducials Storage.def"
+DEFINITION "Spatial Registration Storage.def"
+DEFINITION "Spectacle Prescription Report Storage.def"
+DEFINITION "Softcopy Presentation State Storage.def"
+DEFINITION "Stereometric Relationship Storage.def"
+DEFINITION "Stored Print Storage.def"
+DEFINITION "Surface Segmentation Storage.def"
+DEFINITION "Ultrasound Image Storage.def"
+DEFINITION "Ultrasound Multi-frame Image Storage.def"
+DEFINITION "Video Endoscopic Image Storage.def"
+DEFINITION "Video Microscopic Image Storage.def"
+DEFINITION "Video Photographic Image Storage.def"
+DEFINITION "Visual Acuity Measurements Storage.def"
+DEFINITION "VL Endoscopic Image Storage.def"
+DEFINITION "VL Image Storage - Retired.def"
+DEFINITION "VL Microscopic Image Storage.def"
+DEFINITION "VL Multi-frame Image Storage - Retired.def"
+DEFINITION "VL Photographic Image Storage.def"
+DEFINITION "VL Slide-Coordinates Microscopic ImageStorage.def"
+DEFINITION "X-Ray 3D Angiographic Image Storage.def"
+DEFINITION "X-Ray 3D Craniofacial Image Storage.def"
+DEFINITION "X-Ray Radiofluoroscopic Image Storage.def"
+DEFINITION "XA-XRF Grayscale Softcopy Presenatation State Storage.def"
+DEFINITION "X-Ray Angiographic Bi-Plane Image Storage - Retired.def"
+DEFINITION "X-Ray Angiographic Image Storage.def"
+DEFINITION "File Meta.def"
+DEFINITION "Media Storage Directory.def"
+DEFINITION "Dicom Dir Special.def"
+DEFINITION "Comprehensive SR.def"
+
+# Results
+RESULTS-ROOT ".\results\"
+APPEND-TO-RESULTS-FILE false
+
+# DICOMScript Description Directory
+DESCRIPTION-DIRECTORY ".\html\"
+
+ENDSESSION

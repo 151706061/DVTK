@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCMCompare", "DCMCompare.csproj", "{D799C70B-4AF2-4DCA-A0A0-5C68FBC6CCE2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D799C70B-4AF2-4DCA-A0A0-5C68FBC6CCE2}.Debug.ActiveCfg = Debug|.NET
+		{D799C70B-4AF2-4DCA-A0A0-5C68FBC6CCE2}.Debug.Build.0 = Debug|.NET
+		{D799C70B-4AF2-4DCA-A0A0-5C68FBC6CCE2}.Release.ActiveCfg = Release|.NET
+		{D799C70B-4AF2-4DCA-A0A0-5C68FBC6CCE2}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

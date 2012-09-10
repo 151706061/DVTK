@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ObjectMetaData>
+  <EvsSpecificMetaData>
+    <DicomBinaryObjectDataType>MediaFile|CommandSet|DataSet</DicomBinaryObjectDataType>
+    <DicomSopClassUid>1.2.840.10008.5.1.4.1.1.7</DicomSopClassUid>
+    <DicomSopInstanceUid>1.2.3.4</DicomSopInstanceUid>
+    <DicomTransferSyntaxUid>1.2.840.10008.1.2</DicomTransferSyntaxUid>
+  </EvsSpecificMetaData>
+</ObjectMetaData>

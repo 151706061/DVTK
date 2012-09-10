@@ -1,0 +1,91 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BBF68F23-BBB6-452B-9E7E-6A094047A4C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EvsService</RootNamespace>
+    <AssemblyName>EvsService</AssemblyName>
+    <MinFrameworkVersionRequired>3.0</MinFrameworkVersionRequired>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\External Validation Service Common\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\External Validation Service Common\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DVTK, Version=2.3.0.5, Culture=neutral, PublicKeyToken=5166403a8245d5cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DVTk_Library\DVTK.dll</HintPath>
+    </Reference>
+    <Reference Include="DvtkData, Version=2.3.0.5, Culture=neutral, PublicKeyToken=5166403a8245d5cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DVTk_Library\DvtkData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Source\External Validation Service Common\AssemblyInfo.cs" />
+    <Compile Include="Source\External Validation Service Common\DvtkDetailedResults.cs" />
+    <Compile Include="Source\External Validation Service Common\DvtkDicomEvs.cs" />
+    <Compile Include="Source\External Validation Service Common\DvtkDicomEvsConfig.cs" />
+    <Compile Include="Source\External Validation Service Common\DvtkObjectMetaData.cs" />
+    <Compile Include="Source\External Validation Service Common\DvtkReferencedStandard.cs" />
+    <Compile Include="Source\External Validation Service Common\DvtkResultsOverview.cs" />
+    <Compile Include="Source\External Validation Service Common\DvtkSummaryResults.cs" />
+    <Compile Include="Source\External Validation Service Common\DvtkValidationContext.cs" />
+    <Compile Include="Source\External Validation Service Common\DvtkValidationServiceStatus.cs" />
+    <Compile Include="Source\External Validation Service Common\EvsDetailedResults.cs" />
+    <Compile Include="Source\External Validation Service Common\EvsMethods.cs" />
+    <Compile Include="Source\External Validation Service Common\EvsServiceLogger.cs" />
+    <Compile Include="Source\External Validation Service Common\EvsSummaryResults.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>REM SET LIBRARY_DIRECTORY=$(ProjectDir)..\DVTk_Library\Releases\3_0_3_0\$(ConfigurationName)
+SET LIBRARY_DIRECTORY=$(ProjectDir)..\DVTk_Library\Builds\$(ConfigurationName)
+
+IF NOT EXIST "%25LIBRARY_DIRECTORY%25" (
+ECHO Unable to find library directory "%25LIBRARY_DIRECTORY%25"
+EXIT -1
+)
+
+del /Q /S "$(ProjectDir)DVTk_Library\*.*"
+
+IF NOT EXIST "$(ProjectDir)DVTk_Library" (
+mkdir "$(ProjectDir)DVTk_Library"
+)
+
+xcopy /Y /E "%25LIBRARY_DIRECTORY%25" "$(ProjectDir)DVTk_Library"
+</PreBuildEvent>
+  </PropertyGroup>
+</Project>

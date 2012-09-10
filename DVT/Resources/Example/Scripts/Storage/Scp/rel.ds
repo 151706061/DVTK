@@ -1,0 +1,24 @@
+## Example DVT Dicom Script
+## Copyright (c) 2001-2005
+## Philips Medical Systems NL B.V., Agfa-Gevaert N.V.
+
+##
+## SCP Storage DICOMScript: rel.ds
+##
+## Pre-conditions:
+##      - association existing
+##
+## Test Scenario:
+##      - expect release association request
+##      - return release association response
+##
+## Expected Result:
+##      - SCU signals successful release
+##
+## Post-conditions:
+##      - no association
+##
+RECEIVE RELEASE-RQ
+
+SEND RELEASE-RP
+

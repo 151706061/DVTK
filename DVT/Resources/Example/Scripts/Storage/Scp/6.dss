@@ -1,0 +1,11 @@
+# Example DVT Dicom Script
+# Copyright (c) 2001-2005
+# Philips Medical Systems NL B.V., Agfa-Gevaert N.V.
+
+assoc.ds
+DO 2 2.ds
+rel.ds
+assoc.ds
+DO 3 2.ds
+rel.ds
+

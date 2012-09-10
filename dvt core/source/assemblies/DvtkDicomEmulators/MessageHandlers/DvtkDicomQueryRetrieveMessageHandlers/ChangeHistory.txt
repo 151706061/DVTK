@@ -1,0 +1,22 @@
+Change history for assembly: DvtkDicomQueryRetrieveMessageHandlers
+------------------------------------------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 01/02/2006
+Version: 2.1.006.004
+Change Description: 
+Small change because the DataSet property of a DicomMessage now only supports
+the get and not the set anymore.
+<------------------------------------------------------------------------------>
+Date: 
+Version: 
+Change Description: 
+<------------------------------------------------------------------------------>

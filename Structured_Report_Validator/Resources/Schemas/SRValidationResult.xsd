@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.dvtk.org/schemas/SRValidationResult.xsd"
+           xmlns="http://www.dvtk.org/schemas/SRValidationResult.xsd"
+           elementFormDefault="qualified"
+           >
+  <xs:complexType name="ValidationResult">
+    <xs:sequence>
+      <xs:element name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ValidationResults">
+    <xs:sequence>
+      <xs:element name="validationResult" type="ValidationResult" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Name">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Relationship">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ValueType">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Text">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="NumericValue">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="CodeValue">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="CodingSchemeDesignator">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="CodingSchemeVersion">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="CodeMeaning">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Datetime">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Date">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Time">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="UIDRef">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="PName">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Composite">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Image">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Waveform">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SCoord">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="SCoord3D">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TCoord">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Container">
+    <xs:sequence>
+      <xs:element name="value" type="xs:string" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ConceptCode">
+    <xs:sequence>
+      <xs:element name="codeValue" type="CodeValue" />
+      <xs:element name="codingSchemeDesignator" type="CodingSchemeDesignator" />
+      <xs:element name="codingSchemeVersion" type="CodingSchemeVersion" />
+      <xs:element name="codeMeaning" type="CodeMeaning" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="MeasurementUnits">
+    <xs:sequence>
+      <xs:element name="conceptCode" type="ConceptCode" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="NumericValueQualifier">
+    <xs:sequence>
+      <xs:element name="conceptCode" type="ConceptCode" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Code">
+    <xs:sequence>
+      <xs:element name="conceptCode" type="ConceptCode" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ConceptName">
+    <xs:sequence>
+      <xs:element name="conceptCode" type="ConceptCode" />
+      <xs:element name="validationResults" type="ValidationResults" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="structuredReports">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="structuredReport" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="template">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="Name" />
+                    <xs:element name="contentItems">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="contentItem">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="relationship" type="Relationship" />
+                                <xs:element name="valueType" type="ValueType" />
+                                <xs:element name="valueTypeSpecific">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="text" type="Text" minOccurs="0" />
+                                      <xs:element name="num" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="measuredValue">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="numericValue" type="NumericValue" />
+                                                  <xs:element name="measurementUnits" type="MeasurementUnits" />
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="numericValueQualifier" type="NumericValueQualifier" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="code" type="Code" minOccurs="0" />
+                                      <xs:element name="datetime" type="Datetime" minOccurs="0" />
+                                      <xs:element name="date" type="Date" minOccurs="0" />
+                                      <xs:element name="time" type="Time" minOccurs="0" />
+                                      <xs:element name="uidref" type="UIDRef" minOccurs="0" />
+                                      <xs:element name="pname" type="PName" minOccurs="0" />
+                                      <xs:element name="composite" type="Composite" minOccurs="0" />
+                                      <xs:element name="image" type="Image" minOccurs="0" />
+                                      <xs:element name="waveform" type="Waveform" minOccurs="0" />
+                                      <xs:element name="scoord" type="SCoord" minOccurs="0" />
+                                      <xs:element name="scoord3d" type="SCoord3D" minOccurs="0" />
+                                      <xs:element name="tcoord" type="TCoord" minOccurs="0" />
+                                      <xs:element name="container" type="Container" minOccurs="0" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="conceptName" type="ConceptName" />
+                              </xs:sequence>
+                              <xs:attribute name="identifier" type="xs:string" />
+                              <xs:attribute name="level" type="xs:string" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="identifier" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

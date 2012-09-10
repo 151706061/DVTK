@@ -1,0 +1,49 @@
+Change history for assembly: DVTK
+---------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 06/12/2005
+Version: 2.1.006
+Change Description: Fixed PR 37 - Added bool ValidateReferencedFile property to 
+indicate whether or not the referenced files should be validated when validating
+a DICOMDIR.
+<------------------------------------------------------------------------------>
+Date: 07/12/2005
+Version: 2.1.006
+Change Description: Added Reading of File Meta Information support to 
+DvtkDataHelper class.
+<------------------------------------------------------------------------------>
+Date: 15/12/2005
+Version: 2.1.006
+Change Description: Moved method ReadFile() & WriteFile() from interface IMediaStorage
+to a new interface IDicomFile.Changed Files: MediaSession.cs & Session.cs.
+<------------------------------------------------------------------------------>
+Date: 16/12/2005
+Version: 2.1.006
+Change Description: Added method to get the definition IOD Name from the loaded
+definition files in the current session - GetIodNameFromDefinition().
+<------------------------------------------------------------------------------>
+Date: 21/12/2005
+Version: 2.1.006
+Change Description: Solved PR 68. Set the current time in Dvtk layer.
+Changed File: Serializer.cs
+<------------------------------------------------------------------------------>
+Date: 25/01/2006
+Version: 2.1.006.004
+Change Description: 
+1. Possible to set the different number of errors and warnings.
+2. Possible to log HTML info.
+<------------------------------------------------------------------------------>
+Date: 25/01/2006
+Version: After 2.1.006.004
+Change Description: Solved PR 77. Dump attributes before DICOMDIR validation.
+<------------------------------------------------------------------------------>
+

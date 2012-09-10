@@ -1,0 +1,54 @@
+Change history for library: session
+-----------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 06/12/2005
+Version: 2.1.006
+Change Description: Fixed PR 37 - Added bool ValidateReferencedFile property to 
+indicate whether or not the referenced files should be validated when validating
+a DICOMDIR.
+<------------------------------------------------------------------------------>
+Date: 15/12/2005
+Version: 2.1.006
+Change Description: Moved method readMedia() & writeMedia() from MEDIA_SESSION_CLASS
+Class to BASE_SESSION_CLASS Class.Changed Files: media_session.cpp, media_session.h & 
+session.cpp, session.h.
+<------------------------------------------------------------------------------>
+Date: 16/12/2005
+Version: 2.1.006
+Change Description: Added method to get the definition IOD Name from the loaded
+definition files in the current session - GetIodNameFromDefinition().
+<------------------------------------------------------------------------------>
+Date: 06/01/2006
+Version: 2.1.006
+Change Description: Fixed PR 72. Added bool isDataDirectorySetInSessionM to session
+class. Changed Files: media_session.cpp, emulator_session.cpp & script_session.cpp
+session.cpp, session.h.
+<------------------------------------------------------------------------------>
+Date: 25/01/2006
+Version: 2.1.006.004
+Change Description: Unnecessary we are calling readMedia() function 2 times when
+we are validating only a DCM file and that is costly operation so this change 
+will enhance the performance. 
+Changed Files: media_session.cpp, media_session.h.
+<------------------------------------------------------------------------------>
+Date: 25/01/2006
+Version: After 2.1.006.004
+Change Description: Solved PR 77. Dump attributes before DICOMDIR validation.
+<------------------------------------------------------------------------------>
+Date: 15/11/2006
+Version: After 2.1.006.006
+Change Description: Solved PR 273. Made the lexer robust against non-printable 
+characters. Lexer was returning without lexing anything - result was that the file
+was not parsed - this gave a run time error #3 - the variable 'x' is being used
+without being defined.
+<------------------------------------------------------------------------------>
+

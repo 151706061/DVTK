@@ -1,0 +1,17 @@
+uk.ac.gla.terrier.applications.desktop
+uk.ac.gla.terrier.applications.desktop.filehandling
+uk.ac.gla.terrier.compression
+uk.ac.gla.terrier.indexing
+uk.ac.gla.terrier.matching
+uk.ac.gla.terrier.matching.dsms
+uk.ac.gla.terrier.matching.models
+uk.ac.gla.terrier.matching.models.tagmodel
+uk.ac.gla.terrier.matching.tsms
+uk.ac.gla.terrier.querying
+uk.ac.gla.terrier.querying.parser
+uk.ac.gla.terrier.structures
+uk.ac.gla.terrier.structures.dicom
+uk.ac.gla.terrier.structures.indexing
+uk.ac.gla.terrier.structures.trees
+uk.ac.gla.terrier.terms
+uk.ac.gla.terrier.utility

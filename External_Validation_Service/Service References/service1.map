@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://localhost:8090/service1"
+		Name="service1"
+		NotifyPropertyChange="False"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="http://localhost:8090/service1"
+			BindingConfiguration="BasicHttpBinding_IService1"
+			Contract="EvsServiceHost.service1.IService1"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

@@ -1,0 +1,88 @@
+Change history for assembly: DvtkHighLevelInterface
+---------------------------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 28/11/2005
+Version: 2.1.006
+Change Description: Added an SCU class to the assembly as the basis for the SCU
+functionlity required by DICOM Clients.
+<------------------------------------------------------------------------------>
+Date: 6/12/2005
+Version: 2.1.006
+Change Description:
+Add classes DicomThread.cs, DicomThreadOptions.cs, DvtThreadManager.cs,
+GlobalDicomThreadOptions.cs, Hl7Thread.cs, HliConsole.cs, HliException.cs,
+OutboundMessageFilter.cs, OutboundMessageFilterSetAttribute.cs, Thread.cs,
+ThreadCollection.cs, ThreadManager.cs, ThreadOptions.cs, ThreadState.cs,
+UserInteraction.cs.
+Also removed from the project the classes which functionality has been
+replaced by the new classes.
+Also, changed a few existing classes that in the past handled ScriptSession
+objects and are now using DicomThread objects.
+
+These changes also have an impact on projects that are dependent on HLI because
+the changes are not backwards compatible!
+<------------------------------------------------------------------------------>
+Date: 16/12/2005
+Version: 2.1.006
+Change Description: Added method to get the definition IOD Name from the loaded
+definition files in the current session - GetIodNameFromDefinition().
+<------------------------------------------------------------------------------>
+Date: 19/12/2005
+Version: 2.1.006
+Change Description: Added methods ReadDataSet and WriteDataSet in class DicomThread.
+Removed temporay methods ReadDataFile and WriteDataFile from DicomThreadOptions.
+<------------------------------------------------------------------------------>
+Date: 21/12/2005
+Version: 2.1.006
+Change Description: Added four extra methods to AttributeSet class to be able to
+retrieve the VR, Tag, Values and name of an attributes giving its index.
+<------------------------------------------------------------------------------>
+Date: 19/01/2006
+Version: 2.1.006
+Change Description:
+Enabled the use of the HliForm to track activity logging of Threads and to 
+show user instructions.
+<------------------------------------------------------------------------------>
+Date: 23/01/2006
+Version: 2.1.006
+Change Description: Added NonThreadStart and Stop methods to DicomThread to 
+execute resultsfile logging actions.
+<------------------------------------------------------------------------------>
+Date: 25/01/2006
+Version: 2.1.006.004
+Change Description:
+1. All the different errors and warnings from sub DicomThreads are now added to
+   the parent DicomThread error en warning count.
+2. Possible to log HTML info.
+3. Added class ConcurrentSCP, which enables the use of concurrent SCP's which
+   listen to the same port number by instantiating only one object of this class.
+<------------------------------------------------------------------------------>
+Date: 26/01/2006
+Version: 2.1.006.004
+Change Description: Improved reaction HLIForm by changing form and Thread.Stop method.
+<------------------------------------------------------------------------------>
+Date: 01/02/2006
+Version: 2.1.006.004
+Change Description: 
+1. Added code comments in part of the files.
+2. Removed obsolete classes.
+3. Moved source files into directory structure.
+4. Improved Stop functionality of DicomThreads.
+5. Completed logging of child Threads as HTML table in results.
+6. ThreadCollection has new method to obtain the HTML table described above.
+7. Instance of ConcurrentSCP now also triggers event when of its childs completes and association.
+8. HliForm shows count of the different ThreadStates the attached Thread have.
+<------------------------------------------------------------------------------>
+Date:
+Version: 
+Change Description: 
+<------------------------------------------------------------------------------>

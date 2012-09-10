@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "External Validation Service Common", "External Validation Service Common.csproj", "{BBF68F23-BBB6-452B-9E7E-6A094047A4C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "External Validation Service Command Line", "External Validation Service Command Line.csproj", "{17EBBE5F-B902-44D4-9618-F559947E52B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "External Validation Service Windows Service", "External Validation Service Windows Service.csproj", "{818DDC51-7A65-4AEB-8452-E66A5DE6C3F1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EvsDvtkServerSetUp", "External Validation Service Setup.vdproj", "{C7247332-EEF8-4B7C-93A7-394981B0E489}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBF68F23-BBB6-452B-9E7E-6A094047A4C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF68F23-BBB6-452B-9E7E-6A094047A4C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF68F23-BBB6-452B-9E7E-6A094047A4C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF68F23-BBB6-452B-9E7E-6A094047A4C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17EBBE5F-B902-44D4-9618-F559947E52B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EBBE5F-B902-44D4-9618-F559947E52B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EBBE5F-B902-44D4-9618-F559947E52B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EBBE5F-B902-44D4-9618-F559947E52B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{818DDC51-7A65-4AEB-8452-E66A5DE6C3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818DDC51-7A65-4AEB-8452-E66A5DE6C3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818DDC51-7A65-4AEB-8452-E66A5DE6C3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818DDC51-7A65-4AEB-8452-E66A5DE6C3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7247332-EEF8-4B7C-93A7-394981B0E489}.Debug|Any CPU.ActiveCfg = Debug
+		{C7247332-EEF8-4B7C-93A7-394981B0E489}.Debug|Any CPU.Build.0 = Debug
+		{C7247332-EEF8-4B7C-93A7-394981B0E489}.Release|Any CPU.ActiveCfg = Release
+		{C7247332-EEF8-4B7C-93A7-394981B0E489}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

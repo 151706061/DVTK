@@ -1,0 +1,21 @@
+Change history for assembly: DvtkData
+-------------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 10/01/2006
+Version: 2.1.006
+Change Description: Fixed bug in DvtkData library. 
+Changed file: DimseDataClasses.cs
+<------------------------------------------------------------------------------>
+Date: 25/01/2006
+Version: After 2.1.006.004
+Change Description: Solved PR 77. Dump attributes before DICOMDIR validation.
+<------------------------------------------------------------------------------>

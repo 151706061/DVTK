@@ -1,0 +1,24 @@
+Change history for library: emulator
+------------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 15/11/2006
+Version: After 2.1.006.006
+Change Description: Solved PR 273. Made the lexer robust against non-printable 
+characters. Lexer was returning without lexing anything - result was that the file
+was not parsed - this gave a run time error #3 - the variable 'x' is being used
+without being defined.
+<------------------------------------------------------------------------------>
+Date: 15/11/2006
+Version: 2.1.006.006
+Change Description: Solve PR 196. Copied storage_scu_emulator.cpp file from best
+branch where this PR has been solved since 20/06/2006.
+<------------------------------------------------------------------------------>

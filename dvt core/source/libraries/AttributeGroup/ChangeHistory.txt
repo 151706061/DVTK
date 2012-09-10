@@ -1,0 +1,47 @@
+Change history for library: AttributeGroup
+------------------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 30/11/2005
+Version: 2.1.006
+Change Description: Fixed PR 48 - incorrect validation of LF char in VR UT.
+An LF may appear on its own in a VR of LT - that is, there is no need to have a
+corresponding CR char.
+<------------------------------------------------------------------------------>
+Date: 25/01/2006
+Version: After 2.1.006.004
+Change Description: Solved PR 65. Validation error when no pixel data stored.
+<------------------------------------------------------------------------------>
+Date: 18/04/2006
+Version: After 2.1.006.006
+Change Description: Solved PR 129. Correct handling of zero-length Sequences and Items.
+Changed Files: value_sq.h/.cpp, attribute_group.h/.cpp
+<------------------------------------------------------------------------------>
+Date: 15/11/2006
+Version: After 2.1.006.006
+Change Description: Solved PR 140. Remove trailing space from specific character
+set value - to allow look-up.
+<------------------------------------------------------------------------------>
+Date: 15/11/2006
+Version: After 2.1.006.006
+Change Description: Solved PR 273. Made the lexer robust against non-printable 
+characters. Lexer was returning without lexing anything - result was that the file
+was not parsed - this gave a run time error #3 - the variable 'x' is being used
+without being defined.
+<------------------------------------------------------------------------------>
+Date: 15/11/2006
+Version: After 2.1.007.001
+Change Description: Solved PR 351. Byte swap being made on 8-bit OW data before
+comparison with 8-bit OB data - this should not be done.
+Files: ow_value_stream.cpp and of_value_stream.cpp.
+<------------------------------------------------------------------------------>
+
+

@@ -1,0 +1,77 @@
+Change history for application: DVT
+-----------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: Change the following files for PR 38:-
+					- SopClassManager.cs
+					- DefinitionFile.cs
+					- ProjectForm.cs
+Remove the open definition file checkbox in the last column of DataGrid.
+<------------------------------------------------------------------------------>
+Date: 28/11/2005
+Version: 2.1.006
+Change Description: Changed the following file for PR : 50
+                    -StorageScuEmulatorForm.cs
+Solved the Pr with ID:50 Scu emulator crashes when lot of files are selected.
+
+Date: 28/11/2005
+Version: 2.1.006
+Change Description: Changed the following file for 
+                    ProjectForm2.cs
+Solved the PR : Delete of Result files by NO
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: Pr:37 Dicomdir only can't be validated.
+
+ProjectForm2.cs has been changed for that.
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: PR: M-GEN00002267 has been resolved.
+ProjectForm2.cs has been changed for that.
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006.004
+Change Description: PR: 78 Using multiple backwards causes xml to be displayed 
+has been resolved.
+ProjectForm2.cs has been changed for that.
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006.004
+Change Description: PR: 83  Referenced files not validated anymore after using 
+"Validate DicomDir without ref files..." has been resolved.
+ProjectForm2.cs has been changed for that.
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006.004
+Change Description: PR:88 Navigation between forward and backward doesn't work properly has been resolved.
+ProjectForm2.cs and SessionTreeViewManager.cs has been changed for that.
+<------------------------------------------------------------------------------>
+Date: 1/2/2006
+Version: 2.1.006.004
+Change Description: Small adjustment in the stylesheet processing to be able to use
+new stylesheet: converting [ and ] to < and > in new xml node.
+<------------------------------------------------------------------------------>
+Date: 27/03/2006
+Version: 2.1.006
+Change Description: Added changes made to bestbranch by Piyush to fix PR122.
+<------------------------------------------------------------------------------>
+Date: 
+Version: 
+Change Description: 
+<------------------------------------------------------------------------------>
+
+
+
+

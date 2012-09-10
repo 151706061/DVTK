@@ -1,0 +1,34 @@
+Change history for library: dicom
+----------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 16/01/2006
+Version: 2.1.006.002
+Change Description: There was a bug in C++ casting.
+Modified file: dcm_attribute_encode.cpp, line 608 
+<------------------------------------------------------------------------------>
+Date: 18/04/2006
+Version: After 2.1.006.006
+Change Description: Solved PR 129. Correct handling of zero-length Sequences and Items.
+Changed files: dcm_attribute_group.h/.cpp, dcm_command.h/.cpp, dcm_dataset.h/.cpp
+dcm_item.h/.cpp, dcm_value_sq.h/.cpp
+<------------------------------------------------------------------------------>
+Date: 26/10/2006
+Version: 2.1.006.010
+Change Description: Fixed PR 308 & 324. Put Check in merge algorithm.
+File: dcm_attribute_group.cpp line# 438
+<------------------------------------------------------------------------------>
+Date: 26/10/2006
+Version: 2.1.006.010
+Change Description: Fixed PR 367 - sequence / item introducer / delimiter value check - continue decoding on error.
+File: dcm_item.cpp and dcm_value_sq.cpp
+<------------------------------------------------------------------------------>
+

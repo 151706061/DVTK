@@ -1,0 +1,23 @@
+Change history for library: media
+---------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 25/07/2006
+Version: 2.1.008
+Change Description: Fixed the PR 225.
+changed files: filedataset.cpp line#450 & 458
+<------------------------------------------------------------------------------>
+Date: 02/08/2006
+Version: 2.1.008
+Change Description: Fixed the PR 225 - improved Transfer Syntax deduction by
+looking for all Group Lengths known and Private Recognition Codes.
+changed files: filedataset.cpp
+<------------------------------------------------------------------------------>

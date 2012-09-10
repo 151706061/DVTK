@@ -1,0 +1,7 @@
+// $ANTLR : terrier_floatlex.g -> NumbersTokenTypes.txt$
+Numbers    // output token vocab name
+NUM_FLOAT=4
+PERIOD=5
+DIT=6
+INT=7
+NUM_INT=8

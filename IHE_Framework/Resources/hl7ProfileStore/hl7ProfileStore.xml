@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii" standalone="yes"?>
+<Hl7ProfileStore>
+  <Hl7Profile>
+    <Hl7ProfileId>
+      <Facility>DVTK</Facility>
+      <Version>2.3.1</Version>
+      <MessageType>ADT^A08</MessageType>
+    </Hl7ProfileId>
+    <Filename>NIST_SampleADT_Z.xml</Filename>
+  </Hl7Profile>
+  <Hl7Profile>
+    <Hl7ProfileId>
+      <Facility>DVTK</Facility>
+      <Version>2.3.1</Version>
+      <MessageType>ADT^A40</MessageType>
+    </Hl7ProfileId>
+    <Filename>NIST_SampleADT_Z.xml</Filename>
+  </Hl7Profile>
+  <Hl7Profile>
+    <Hl7ProfileId>
+      <Facility>DVTK</Facility>
+      <Version>2.3.1</Version>
+      <MessageType>ORM^O01</MessageType>
+    </Hl7ProfileId>
+    <Filename>NIST_SampleADT_Z.xml</Filename>
+  </Hl7Profile>
+</Hl7ProfileStore>

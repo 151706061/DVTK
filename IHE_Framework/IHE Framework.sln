@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHE Framework Command Line", "IHE Framework Command Line.csproj", "{8AA3807C-A355-4514-9146-6D00FEAF41FB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "IHE Framework Setup", "IHE Framework Setup.vdproj", "{2BA1F6DC-D3ED-4D81-91C4-AC1DC9C27F70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA3807C-A355-4514-9146-6D00FEAF41FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA3807C-A355-4514-9146-6D00FEAF41FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA3807C-A355-4514-9146-6D00FEAF41FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA3807C-A355-4514-9146-6D00FEAF41FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA1F6DC-D3ED-4D81-91C4-AC1DC9C27F70}.Debug|Any CPU.ActiveCfg = Debug
+		{2BA1F6DC-D3ED-4D81-91C4-AC1DC9C27F70}.Debug|Any CPU.Build.0 = Debug
+		{2BA1F6DC-D3ED-4D81-91C4-AC1DC9C27F70}.Release|Any CPU.ActiveCfg = Release
+		{2BA1F6DC-D3ED-4D81-91C4-AC1DC9C27F70}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

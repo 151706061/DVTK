@@ -1,0 +1,108 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px;  PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: black; PADDING-TOP: 0px
+}
+TABLE {
+	FONT-SIZE: 11px;
+}
+.resultstable{
+	BORDER-STYLE: solid; BORDER-COLOR: #2f5376; 
+}
+
+TABLE.advancedouter{
+	BORDER-WIDTH: 3px; BORDER-STYLE: solid; BORDER-COLOR: #2f5376; BACKGROUND-COLOR: #ffffff; PADDING-RIGHT: 0px; PADDING-LEFT: 0px;  PADDING-BOTTOM: 0px;  PADDING-TOP: 0px
+}
+TABLE.advancedinner{
+	BACKGROUND-COLOR: #2f5376; PADDING-RIGHT: 0px; PADDING-LEFT: 0px;  PADDING-BOTTOM: 0px;  PADDING-TOP: 0px
+}
+
+TABLE.advancedouter TD{
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px;  PADDING-BOTTOM: 0px;  PADDING-TOP: 0px
+}
+TABLE.advancedinner TD{
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px;  PADDING-BOTTOM: 0px;  PADDING-TOP: 0px
+}
+
+TD.betweenlarge{
+	HEIGHT:20px; VERTICAL-ALIGN: top; TEXT-ALIGN: right;
+}
+
+TD.betweennormal{
+	HEIGHT:12px
+}
+
+TD.betweensmalll{
+	HEIGHT:8px
+}
+
+TD.inputrow{
+	HEIGHT:38px; BACKGROUND-IMAGE: url(/images/back.gif); VERTICAL-ALIGN: center;
+}
+
+TABLE TD {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px;  PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BORDER-RIGHT-WIDTH: 0px
+}
+.allresults{
+	VERTICAL-ALIGN: top; TEXT-ALIGN: center;
+}
+.results {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 10px; PADDING-LEFT: 2px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 1px; VERTICAL-ALIGN: top; PADDING-TOP: 7px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BORDER-RIGHT-WIDTH: 1px
+}
+.setname {
+	WIDTH:175px; BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 10px; PADDING-LEFT: 2px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; PADDING-BOTTOM: 1px; VERTICAL-ALIGN: top; PADDING-TOP: 7px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BORDER-RIGHT-WIDTH: 1px
+}
+.previewarea{
+	PADDING-LEFT: 30px; VERTICAL-ALIGN: top; TEXT-ALIGN=center;
+}
+SPAN {
+	FONT-SIZE: 11px;
+}
+.description {
+	FONT-SIZE: 10px; COLOR: #009900;
+}
+.error{
+	FONT-SIZE: 10px; COLOR: #FF0000;
+}
+
+A {
+	FONT-WEIGHT: bold; COLOR: #666666; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6600
+}
+A:active {
+	COLOR: #ff6600
+}
+.current {
+	FONT-WEIGHT: normal; FONT-SIZE: 20px;
+}
+.current {
+	FONT-WEIGHT: normal; FONT-SIZE: 20px; COLOR: #ff6600
+}
+H1 {
+	
+}
+H2 {
+	
+}
+H3 {
+	
+}
+H4 {
+	
+}
+H5 {
+	
+}
+UL {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; LIST-STYLE-POSITION: inside; PADDING-BOTTOM: 2px; MARGIN: 2px; PADDING-TOP: 2px; LIST-STYLE-TYPE: decimal; TEXT-ALIGN: left
+}
+LI {
+	LIST-STYLE-POSITION: inside; MARGIN-LEFT: 2px; COLOR: #2f5376; LIST-STYLE-TYPE: square
+}
+INPUT.formButton {
+	
+}
+
+TH.results{
+	BACKGROUND-COLOR: #2f5376; COLOR: #ffffff;
+}

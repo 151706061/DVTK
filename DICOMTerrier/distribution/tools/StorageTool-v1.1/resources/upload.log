@@ -1,0 +1,30 @@
+Apr 13, 2006 1:59:12 PM Storage runApplication
+INFO: emptydir.bat tempresults  ended with exit code 0
+Apr 13, 2006 1:59:13 PM Storage$3 run
+INFO: Start Building meta file
+Apr 13, 2006 1:59:13 PM Storage$3 run
+INFO: Meta file created
+Apr 13, 2006 1:59:13 PM Storage$3 run
+INFO: Start validating DICOMDIR
+Apr 13, 2006 1:59:14 PM Storage runApplication
+INFO: > Executing DvtCmd
+Apr 13, 2006 1:59:14 PM Storage runApplication
+INFO: > Validating media file D:\DICOMDIR...
+Apr 13, 2006 2:04:50 PM Storage runApplication
+INFO: "C:\Program Files\DVT\bin\DvtCmd.exe" -m Media.ses "D:\DICOMDIR"  ended with exit code 0
+Apr 13, 2006 2:04:50 PM Storage$3 run
+INFO: Ended validating
+Apr 13, 2006 2:04:50 PM Storage$3 run
+INFO: Deleting pix and idx files
+Apr 13, 2006 2:04:51 PM Storage runApplication
+INFO: delete.bat tempresults  ended with exit code 0
+Apr 13, 2006 2:04:51 PM Storage$3 run
+INFO: Renaming xml files
+Apr 13, 2006 2:04:52 PM dicomxml.XMLRenamer rename
+INFO: Creating C:\DicomTerrier\tools\StorageTool-v1.1\resources\tempresults\DICOM\
+Apr 13, 2006 2:05:48 PM Storage$3 run
+INFO: Xml files renamed
+Apr 13, 2006 2:05:48 PM Storage$3 run
+INFO: Creating directory structures
+Apr 13, 2006 2:05:48 PM Storage$3 run
+SEVERE: There were errors, cannot copy

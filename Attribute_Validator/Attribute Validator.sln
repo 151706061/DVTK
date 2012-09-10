@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attribute Validator", "Attribute Validator.csproj", "{87DEA83D-2A4B-4047-A5CD-97F26BCE544B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dvtk.Dicom", "..\DVTk_Library\Source\Dvtk.Dicom\Dvtk.Dicom.csproj", "{32F2EFFC-2A77-4DEF-B8DE-8E0D44B0E58E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dvtk.Dicom.AttributeLayer", "..\DVTk_Library\Source\Dvtk.Dicom.AttributeLayer\Dvtk.Dicom.AttributeLayer.csproj", "{5EF4A686-FF33-4572-AD93-9C2D4C2A602E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dvtk.Dicom.AttributeLayer.Specification", "..\DVTk_Library\Source\Dvtk.Dicom.AttributeLayer.Specification\Dvtk.Dicom.AttributeLayer.Specification.csproj", "{07BE1F28-86FF-4FE8-B682-41A33349F1BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dvtk.Dicom.Conversion", "..\DVTk_Library\Source\Dvtk.Dicom.Conversion\Dvtk.Dicom.Conversion.csproj", "{E4AC2AE9-2145-4810-A163-2470412B1F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dvtk.Dicom.AttributeLayer.Validation", "..\DVTk_Library\Source\Dvtk.Dicom.AttributeLayer.Validation\Dvtk.Dicom.AttributeLayer.Validation.csproj", "{CB06D5EC-D1FC-43D6-A9BE-39E0E0A30E13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87DEA83D-2A4B-4047-A5CD-97F26BCE544B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DEA83D-2A4B-4047-A5CD-97F26BCE544B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DEA83D-2A4B-4047-A5CD-97F26BCE544B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DEA83D-2A4B-4047-A5CD-97F26BCE544B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F2EFFC-2A77-4DEF-B8DE-8E0D44B0E58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F2EFFC-2A77-4DEF-B8DE-8E0D44B0E58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F2EFFC-2A77-4DEF-B8DE-8E0D44B0E58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F2EFFC-2A77-4DEF-B8DE-8E0D44B0E58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF4A686-FF33-4572-AD93-9C2D4C2A602E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF4A686-FF33-4572-AD93-9C2D4C2A602E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF4A686-FF33-4572-AD93-9C2D4C2A602E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF4A686-FF33-4572-AD93-9C2D4C2A602E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BE1F28-86FF-4FE8-B682-41A33349F1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BE1F28-86FF-4FE8-B682-41A33349F1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BE1F28-86FF-4FE8-B682-41A33349F1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BE1F28-86FF-4FE8-B682-41A33349F1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4AC2AE9-2145-4810-A163-2470412B1F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AC2AE9-2145-4810-A163-2470412B1F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AC2AE9-2145-4810-A163-2470412B1F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AC2AE9-2145-4810-A163-2470412B1F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB06D5EC-D1FC-43D6-A9BE-39E0E0A30E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB06D5EC-D1FC-43D6-A9BE-39E0E0A30E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB06D5EC-D1FC-43D6-A9BE-39E0E0A30E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB06D5EC-D1FC-43D6-A9BE-39E0E0A30E13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

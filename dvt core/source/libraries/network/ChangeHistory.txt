@@ -1,0 +1,26 @@
+Change history for library: network
+-----------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 01/12/2005
+Version: 2.1.006
+Change Description: Added support for the User Identity Negotiation.
+<------------------------------------------------------------------------------>
+Date: 15/11/2006
+Version: 2.1.006
+Change Description: PR 368 - Added check on max pdu length - now set this to the
+INFINITE length used by DVT = 1Mb - to avoid heap space overflow.
+File: data_tf_pdu.cpp
+<------------------------------------------------------------------------------>
+Date: 
+Version: 
+Change Description: 
+<------------------------------------------------------------------------------>

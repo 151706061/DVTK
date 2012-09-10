@@ -1,0 +1,23 @@
+Change history for library: definition
+--------------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 15/11/2006
+Version: After 2.1.006.006
+Change Description: Solved PR 273. Made the lexer robust against non-printable 
+characters. Lexer was returning without lexing anything - result was that the file
+was not parsed - this gave a run time error #3 - the variable 'x' is being used
+without being defined.
+<------------------------------------------------------------------------------>
+Date: 28/11/2006
+Version: After 2.1.006.011
+Change Description: Solved PR 382
+<------------------------------------------------------------------------------>

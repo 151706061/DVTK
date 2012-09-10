@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Sun/AppServer/lib/j2ee.jar"/>
+	<classpathentry kind="lib" path="C:/DicomTerrier/lib/dcm4che.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Utility"/>
+	<classpathentry kind="lib" path="C:/DicomTerrier/lib/dicomterrier-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/DicomTerrier/lib/antlr.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="us-ascii" standalone="yes"?>
+<IheIntegrationProfile>
+  <IntegrationProfileName>OF and IM</IntegrationProfileName>
+  <RootedBaseDirectory>C:\Program Files\DVTk\DvtkIheFramework</RootedBaseDirectory>
+  <ResultsDirectory>results</ResultsDirectory>
+  <OverwriteResults>False</OverwriteResults>
+  <CredentialsFilename></CredentialsFilename>
+  <CertificateFilename></CertificateFilename>
+  <NistWebServiceUrl></NistWebServiceUrl>
+  <Hl7ProfileDirectory></Hl7ProfileDirectory>
+  <Hl7ProfileStoreName></Hl7ProfileStoreName>
+  <Hl7ValidationContextFilename></Hl7ValidationContextFilename>
+  <Interactive>True</Interactive>
+  <ActorConfiguration>
+    <ActorName>
+      <ActorType>DssOrderFiller</ActorType>
+      <ActorId>OF_ID1</ActorId>
+    </ActorName>
+    <ConfigState>ActorBeingEmulated</ConfigState>
+  </ActorConfiguration>
+  <ActorConfiguration>
+    <ActorName>
+      <ActorType>ImageManager</ActorType>
+      <ActorId>IM_ID1</ActorId>
+    </ActorName>
+    <ConfigState>ActorBeingEmulated</ConfigState>
+  </ActorConfiguration>
+   <Hl7PeerToPeerConfiguration>
+    <FromActor>
+      <ActorName>
+        <ActorType>DssOrderFiller</ActorType>
+        <ActorId>OF_ID1</ActorId>
+      </ActorName>
+      <AeTitle>OF_AE1</AeTitle>
+    </FromActor>
+    <ToActor>
+      <ActorName>
+        <ActorType>ImageManager</ActorType>
+        <ActorId>IM_ID1</ActorId>
+      </ActorName>
+      <AeTitle>IM_AE1</AeTitle>
+      <IpAddress>localhost</IpAddress>
+    </ToActor>
+    <PortNumber>514</PortNumber>
+    <MessageDelimiters>|^~\&#x26;</MessageDelimiters>
+    <SecureConnection>False</SecureConnection>
+    <AutoValidate>False</AutoValidate>
+    <ActorOption1></ActorOption1>
+    <ActorOption2></ActorOption2>
+    <ActorOption3></ActorOption3>
+    <SessionId>4</SessionId>
+  </Hl7PeerToPeerConfiguration>
+</IheIntegrationProfile>

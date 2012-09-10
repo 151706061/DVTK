@@ -1,0 +1,20 @@
+Change history for assembly: ApplicationLayer
+---------------------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 19/12/2005
+Version: 2.1.006
+Change Description: All the relevant changes which were to be made in Application layer so as to integrate it with UI has been posted.
+<------------------------------------------------------------------------------>
+Date: 27/03/2006
+Version: 2.1.006
+Change Description: Added changes made to bestbranch by Piyush to fix PR122.
+<------------------------------------------------------------------------------>

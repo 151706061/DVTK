@@ -1,0 +1,86 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2EC10ACD-AC1E-433A-B896-23F82DEDCBC8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dvtk.Ucum</RootNamespace>
+    <AssemblyName>Dvtk.Ucum</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Vampire.Support, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Resources\Vampire.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contents\ArbitraryUnitAtom.cs" />
+    <Compile Include="Contents\BaseUnitAtom.cs" />
+    <Compile Include="Contents\DerivedUnitAtom.cs" />
+    <Compile Include="Contents\Example.cs" />
+    <Compile Include="Contents\Function.cs" />
+    <Compile Include="Contents\InterfacesUnions.cs" />
+    <Compile Include="Contents\Prefix.cs" />
+    <Compile Include="Contents\ProperUnitAtom.cs" />
+    <Compile Include="Contents\SpecialUnitAtom.cs" />
+    <Compile Include="Contents\Standard.cs" />
+    <Compile Include="Contents\SupportUnions.cs" />
+    <Compile Include="Contents\UnitAtom.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Syntax\Annotatable.cs" />
+    <Compile Include="Syntax\AnnotatedTerm.cs" />
+    <Compile Include="Syntax\Annotation.cs" />
+    <Compile Include="Syntax\BinaryTerm.cs" />
+    <Compile Include="Syntax\Enums.cs" />
+    <Compile Include="Syntax\Factor.cs" />
+    <Compile Include="Syntax\PrefixedUnitSymbol.cs" />
+    <Compile Include="Syntax\PrefixSymbol.cs" />
+    <Compile Include="Syntax\SimpleTerm.cs" />
+    <Compile Include="Syntax\SimpleUnit.cs" />
+    <Compile Include="Syntax\SymbolicTerm.cs" />
+    <Compile Include="Syntax\Term.cs" />
+    <Compile Include="Syntax\UnaryTerm.cs" />
+    <Compile Include="Syntax\UnitAtomSymbol.cs" />
+    <Compile Include="Test\Result.cs" />
+    <Compile Include="Test\Test.cs" />
+    <Compile Include="Tools.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>SET DESTINATION_DIR=$(ProjectDir)..\..\builds\$(ConfigurationName)
+ECHO DESTINATION_DIR is %25DESTINATION_DIR%25
+
+Copy "$(TargetPath)" "%25DESTINATION_DIR%25
+IF EXIST "$(TargetDir)$(TargetName).pdb" Copy "$(TargetDir)$(TargetName).pdb" "%25DESTINATION_DIR%25</PostBuildEvent>
+  </PropertyGroup>
+</Project>

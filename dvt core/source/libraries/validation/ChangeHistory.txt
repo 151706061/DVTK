@@ -1,0 +1,48 @@
+Change history for library: validation
+--------------------------------------
+
+This file contains the change history for the above component. 
+It contains details of any significant changes and CR/PR fixes.
+The component developer is responsible for keeping this file up to date.
+
+<------------------------------------------------------------------------------>
+Date: 24/11/2005
+Version: 2.1.006
+Change Description: This change history file is included for the first time.
+<------------------------------------------------------------------------------>
+Date: 30/11/2005
+Version: 2.1.006
+Change Description: Fixed PR 42 - Incorrect condition evaluation by adding a
+co-object to the condition evaluation. For a dataset the co-object can either be
+the command (for network) or the file meta information (for media).
+<------------------------------------------------------------------------------>
+Date: 06/12/2005
+Version: 2.1.006
+Change Description: Fixed PR 37 - Added bool ValidateReferencedFile property to 
+indicate whether or not the referenced files should be validated when validating
+a DICOMDIR.
+<------------------------------------------------------------------------------>
+Date: 17/01/2006
+Version: 2.1.006.003
+Change Description: Fixed PR 79 
+<------------------------------------------------------------------------------>
+Date: 23/01/2006
+Version: 2.1.006.004
+Change Description: Fixed PR 82 Changed file: media_validator.cpp.
+<------------------------------------------------------------------------------>
+Date: 25/01/2006
+Version: After 2.1.006.004
+Change Description: Solved PR 65. Validation error when no pixel data stored.
+<------------------------------------------------------------------------------>
+Date: 30/11/2006
+Version: After 2.1.006.004
+Change Description: Solved PR 331. VR comparison between src and ref attributes
+when src imported with ILE TS and UN VR.
+Changed files: val_attribute.cpp.
+<------------------------------------------------------------------------------>
+Date: 01/12/2006
+Version: After 2.1.006.004
+Change Description: Solved PR 120. Check if pixel data length odd before comparison
+with padded length.
+Changed Files: val_attribute.cpp
+<------------------------------------------------------------------------------>

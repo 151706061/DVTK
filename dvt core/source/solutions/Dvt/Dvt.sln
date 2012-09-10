@@ -1,0 +1,336 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dvt", "..\..\applications\Dvt\Dvt.csproj", "{6E630F14-3666-4E7B-98C9-9FCFBFF4559D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "network", "..\..\libraries\network\network.vcproj", "{D3340271-CCBC-428A-B417-4C92F3ED907B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AttributeGroup", "..\..\libraries\AttributeGroup\AttributeGroup.vcproj", "{58A5B797-F08B-4837-96CF-FFBDB7CB3F02}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "condition", "..\..\libraries\condition\condition.vcproj", "{A7855BD5-03C1-4711-9F44-81D94A4F0F5C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "definition", "..\..\libraries\definition\definition.vcproj", "{DADE89C9-2D7F-4582-BF44-FA656E9E556D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dicom", "..\..\libraries\dicom\dicom.vcproj", "{FE81B2F3-B574-46AB-A109-8B5A169450C2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVTK", "..\..\assemblies\DVTK\DVTK.csproj", "{DBC39A1E-18CB-4809-81E0-47B1C899BBE0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7DF60C20-4034-49CC-9974-B8443A2BC192} = {7DF60C20-4034-49CC-9974-B8443A2BC192}
+		{8E50A389-C478-4013-817D-8191C994B602} = {8E50A389-C478-4013-817D-8191C994B602}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkData", "..\..\assemblies\DvtkData\DvtkData.csproj", "{7DF60C20-4034-49CC-9974-B8443A2BC192}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DVTKManagedCodeAdapter", "..\..\assemblies\DVTKManagedCodeAdapter\DVTKManagedCodeAdapter.vcproj", "{8E50A389-C478-4013-817D-8191C994B602}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DB46B436-C9F8-445A-A820-FCDBF2BD7079} = {DB46B436-C9F8-445A-A820-FCDBF2BD7079}
+		{0A055C47-2A70-4845-968E-EB5E64DECA2D} = {0A055C47-2A70-4845-968E-EB5E64DECA2D}
+		{B715244C-8258-46D6-B37E-1B85510FCB72} = {B715244C-8258-46D6-B37E-1B85510FCB72}
+		{A113B569-82A2-4B52-B60A-4797D12D6FBD} = {A113B569-82A2-4B52-B60A-4797D12D6FBD}
+		{D3340271-CCBC-428A-B417-4C92F3ED907B} = {D3340271-CCBC-428A-B417-4C92F3ED907B}
+		{AC685071-AAEA-4DBF-9E09-E648F49F8F5B} = {AC685071-AAEA-4DBF-9E09-E648F49F8F5B}
+		{33D7A88E-00EB-4149-8233-26CFFC6987E1} = {33D7A88E-00EB-4149-8233-26CFFC6987E1}
+		{58A5B797-F08B-4837-96CF-FFBDB7CB3F02} = {58A5B797-F08B-4837-96CF-FFBDB7CB3F02}
+		{56D4BCA8-6C2A-4D84-803D-E11FFA8DA9BE} = {56D4BCA8-6C2A-4D84-803D-E11FFA8DA9BE}
+		{DADE89C9-2D7F-4582-BF44-FA656E9E556D} = {DADE89C9-2D7F-4582-BF44-FA656E9E556D}
+		{9B01E6D4-F4BD-4CAC-94C7-76037DF6634A} = {9B01E6D4-F4BD-4CAC-94C7-76037DF6634A}
+		{A7855BD5-03C1-4711-9F44-81D94A4F0F5C} = {A7855BD5-03C1-4711-9F44-81D94A4F0F5C}
+		{C4CBABF1-059C-41CC-B97B-1E046FDE9FED} = {C4CBABF1-059C-41CC-B97B-1E046FDE9FED}
+		{FE81B2F3-B574-46AB-A109-8B5A169450C2} = {FE81B2F3-B574-46AB-A109-8B5A169450C2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "emulator", "..\..\libraries\emulator\emulator.vcproj", "{56D4BCA8-6C2A-4D84-803D-E11FFA8DA9BE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "log", "..\..\libraries\log\log.vcproj", "{B715244C-8258-46D6-B37E-1B85510FCB72}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "media", "..\..\libraries\media\media.vcproj", "{A113B569-82A2-4B52-B60A-4797D12D6FBD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "relation", "..\..\libraries\relation\relation.vcproj", "{AC685071-AAEA-4DBF-9E09-E648F49F8F5B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scripting", "..\..\libraries\scripting\scripting.vcproj", "{9B01E6D4-F4BD-4CAC-94C7-76037DF6634A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "session", "..\..\libraries\session\session.vcproj", "{C4CBABF1-059C-41CC-B97B-1E046FDE9FED}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utility", "..\..\libraries\utility\utility.vcproj", "{33D7A88E-00EB-4149-8233-26CFFC6987E1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "validation", "..\..\libraries\validation\validation.vcproj", "{DB46B436-C9F8-445A-A820-FCDBF2BD7079}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "warehouse", "..\..\libraries\warehouse\warehouse.vcproj", "{0A055C47-2A70-4845-968E-EB5E64DECA2D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkScriptSupport", "..\..\assemblies\DvtkScriptSupport\DvtkScriptSupport.csproj", "{D8170A29-9F92-4B3C-8A67-F93704653E8C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtCmd", "..\..\applications\DvtCmd\DvtCmd.csproj", "{405C7FC0-8475-4F6C-88FB-B13BAB4A3BE6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationLayer", "..\..\applications\ApplicationLayer\ApplicationLayer.csproj", "{6C70CAF0-D330-4F52-B6CE-71C70DC1600F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkHighLevelInterface", "..\..\assemblies\DvtkHighLevelInterface\DvtkHighLevelInterface.csproj", "{4B34D6B9-D185-4742-A204-70C490500754}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkDicomStorageClientServers", "..\..\assemblies\DvtkDicomEmulators\ClientServers\DvtkDicomStorageClientServers\DvtkDicomStorageClientServers.csproj", "{B1E6901B-9FE8-4B70-A649-EFBC42AA4908}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkDicomStorageMessageHandlers", "..\..\assemblies\DvtkDicomEmulators\MessageHandlers\DvtkDicomStorageMessageHandlers\DvtkDicomStorageMessageHandlers.csproj", "{B03D454B-9119-47D7-8A09-D8BE8A7C781D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DvtkDicomWorklistMessageHandlers", "..\..\assemblies\DvtkDicomEmulators\MessageHandlers\DvtkDicomWorklistMessageHandlers\DvtkDicomWorklistMessageHandlers.vbproj", "{E1CF178D-FFFF-4DF3-BF28-DB333741BB0E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkDicomMppsMessageHandlers", "..\..\assemblies\DvtkDicomEmulators\MessageHandlers\DvtkDicomMppsMessageHandlers\DvtkDicomMppsMessageHandlers.csproj", "{AD4668F0-3F2D-4212-9DDE-012C215B1467}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkDicomMppsClientServers", "..\..\assemblies\DvtkDicomEmulators\ClientServers\DvtkDicomMppsClientServers\DvtkDicomMppsClientServers.csproj", "{565D3F76-1917-4CFF-B84D-BF18C19A996C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkDicomWorklistClientServers", "..\..\assemblies\DvtkDicomEmulators\ClientServers\DvtkDicomWorklistClientServers\DvtkDicomWorklistClientServers.csproj", "{916C404E-1A03-48D2-B515-DC07368CE044}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkIheActors", "..\..\assemblies\DvtkIheActors\DvtkIheActors.csproj", "{DEDC169F-3FC4-4189-B9F0-169C8DEBC11A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkDicomPrintClientServers", "..\..\assemblies\DvtkDicomEmulators\ClientServers\DvtkDicomPrintClientServers\DvtkDicomPrintClientServers.csproj", "{FDA999AB-7A52-4B49-B3CE-EA0B28AC0FF2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkDicomPrintMessageHandlers", "..\..\assemblies\DvtkDicomEmulators\MessageHandlers\DvtkDicomPrintMessageHandlers\DvtkDicomPrintMessageHandlers.csproj", "{161D11E4-EFCE-4DD8-AB5C-2FA826B9C023}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkDicomQueryRetrieveClientServers", "..\..\assemblies\DvtkDicomEmulators\ClientServers\DvtkDicomQueryRetrieveClientServers\DvtkDicomQueryRetrieveClientServers.csproj", "{44F3DA6A-8031-4D3A-929E-B9634A6F32E5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkDicomQueryRetrieveMessageHandlers", "..\..\assemblies\DvtkDicomEmulators\MessageHandlers\DvtkDicomQueryRetrieveMessageHandlers\DvtkDicomQueryRetrieveMessageHandlers.csproj", "{40000E2C-F78E-4649-BB66-52F3DF7D8BE0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkDicomStorageCommitClientServers", "..\..\assemblies\DvtkDicomEmulators\ClientServers\DvtkDicomStorageCommitClientServers\DvtkDicomStorageCommitClientServers.csproj", "{3664C486-B710-430D-886E-2CA8DC796AC3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkDicomStorageCommitMessageHandlers", "..\..\assemblies\DvtkDicomEmulators\MessageHandlers\DvtkDicomStorageCommitMessageHandlers\DvtkDicomStorageCommitMessageHandlers.csproj", "{2BB12826-391E-4950-8277-B8883361768A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkInformationEntity", "..\..\assemblies\DvtkInformationEntity\DvtkInformationEntity.csproj", "{36BB69F0-A963-49D9-8626-E88A02FE0141}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkCommonDataFormat", "..\..\assemblies\DvtkCommonDataFormat\DvtkCommonDataFormat.csproj", "{38F9E2D9-BDA9-4D32-95FD-B779B03C32BD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvtkComparator", "..\..\assemblies\DvtkComparator\DvtkComparator.csproj", "{BE98BF56-A84E-43A4-847F-2AA3E551ADDD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6E630F14-3666-4E7B-98C9-9FCFBFF4559D}.Debug.ActiveCfg = Debug|.NET
+		{6E630F14-3666-4E7B-98C9-9FCFBFF4559D}.Debug.Build.0 = Debug|.NET
+		{6E630F14-3666-4E7B-98C9-9FCFBFF4559D}.Release.ActiveCfg = Release|.NET
+		{6E630F14-3666-4E7B-98C9-9FCFBFF4559D}.Release.Build.0 = Release|.NET
+		{D3340271-CCBC-428A-B417-4C92F3ED907B}.Debug.ActiveCfg = Debug|Win32
+		{D3340271-CCBC-428A-B417-4C92F3ED907B}.Debug.Build.0 = Debug|Win32
+		{D3340271-CCBC-428A-B417-4C92F3ED907B}.Release.ActiveCfg = Release|Win32
+		{D3340271-CCBC-428A-B417-4C92F3ED907B}.Release.Build.0 = Release|Win32
+		{58A5B797-F08B-4837-96CF-FFBDB7CB3F02}.Debug.ActiveCfg = Debug|Win32
+		{58A5B797-F08B-4837-96CF-FFBDB7CB3F02}.Debug.Build.0 = Debug|Win32
+		{58A5B797-F08B-4837-96CF-FFBDB7CB3F02}.Release.ActiveCfg = Release|Win32
+		{58A5B797-F08B-4837-96CF-FFBDB7CB3F02}.Release.Build.0 = Release|Win32
+		{A7855BD5-03C1-4711-9F44-81D94A4F0F5C}.Debug.ActiveCfg = Debug|Win32
+		{A7855BD5-03C1-4711-9F44-81D94A4F0F5C}.Debug.Build.0 = Debug|Win32
+		{A7855BD5-03C1-4711-9F44-81D94A4F0F5C}.Release.ActiveCfg = Release|Win32
+		{A7855BD5-03C1-4711-9F44-81D94A4F0F5C}.Release.Build.0 = Release|Win32
+		{DADE89C9-2D7F-4582-BF44-FA656E9E556D}.Debug.ActiveCfg = Debug|Win32
+		{DADE89C9-2D7F-4582-BF44-FA656E9E556D}.Debug.Build.0 = Debug|Win32
+		{DADE89C9-2D7F-4582-BF44-FA656E9E556D}.Release.ActiveCfg = Release|Win32
+		{DADE89C9-2D7F-4582-BF44-FA656E9E556D}.Release.Build.0 = Release|Win32
+		{FE81B2F3-B574-46AB-A109-8B5A169450C2}.Debug.ActiveCfg = Debug|Win32
+		{FE81B2F3-B574-46AB-A109-8B5A169450C2}.Debug.Build.0 = Debug|Win32
+		{FE81B2F3-B574-46AB-A109-8B5A169450C2}.Release.ActiveCfg = Release|Win32
+		{FE81B2F3-B574-46AB-A109-8B5A169450C2}.Release.Build.0 = Release|Win32
+		{DBC39A1E-18CB-4809-81E0-47B1C899BBE0}.Debug.ActiveCfg = Debug|.NET
+		{DBC39A1E-18CB-4809-81E0-47B1C899BBE0}.Debug.Build.0 = Debug|.NET
+		{DBC39A1E-18CB-4809-81E0-47B1C899BBE0}.Release.ActiveCfg = Release|.NET
+		{DBC39A1E-18CB-4809-81E0-47B1C899BBE0}.Release.Build.0 = Release|.NET
+		{7DF60C20-4034-49CC-9974-B8443A2BC192}.Debug.ActiveCfg = Debug|.NET
+		{7DF60C20-4034-49CC-9974-B8443A2BC192}.Debug.Build.0 = Debug|.NET
+		{7DF60C20-4034-49CC-9974-B8443A2BC192}.Release.ActiveCfg = Release|.NET
+		{7DF60C20-4034-49CC-9974-B8443A2BC192}.Release.Build.0 = Release|.NET
+		{8E50A389-C478-4013-817D-8191C994B602}.Debug.ActiveCfg = Debug|Win32
+		{8E50A389-C478-4013-817D-8191C994B602}.Debug.Build.0 = Debug|Win32
+		{8E50A389-C478-4013-817D-8191C994B602}.Release.ActiveCfg = Release|Win32
+		{8E50A389-C478-4013-817D-8191C994B602}.Release.Build.0 = Release|Win32
+		{56D4BCA8-6C2A-4D84-803D-E11FFA8DA9BE}.Debug.ActiveCfg = Debug|Win32
+		{56D4BCA8-6C2A-4D84-803D-E11FFA8DA9BE}.Debug.Build.0 = Debug|Win32
+		{56D4BCA8-6C2A-4D84-803D-E11FFA8DA9BE}.Release.ActiveCfg = Release|Win32
+		{56D4BCA8-6C2A-4D84-803D-E11FFA8DA9BE}.Release.Build.0 = Release|Win32
+		{B715244C-8258-46D6-B37E-1B85510FCB72}.Debug.ActiveCfg = Debug|Win32
+		{B715244C-8258-46D6-B37E-1B85510FCB72}.Debug.Build.0 = Debug|Win32
+		{B715244C-8258-46D6-B37E-1B85510FCB72}.Release.ActiveCfg = Release|Win32
+		{B715244C-8258-46D6-B37E-1B85510FCB72}.Release.Build.0 = Release|Win32
+		{A113B569-82A2-4B52-B60A-4797D12D6FBD}.Debug.ActiveCfg = Debug|Win32
+		{A113B569-82A2-4B52-B60A-4797D12D6FBD}.Debug.Build.0 = Debug|Win32
+		{A113B569-82A2-4B52-B60A-4797D12D6FBD}.Release.ActiveCfg = Release|Win32
+		{A113B569-82A2-4B52-B60A-4797D12D6FBD}.Release.Build.0 = Release|Win32
+		{AC685071-AAEA-4DBF-9E09-E648F49F8F5B}.Debug.ActiveCfg = Debug|Win32
+		{AC685071-AAEA-4DBF-9E09-E648F49F8F5B}.Debug.Build.0 = Debug|Win32
+		{AC685071-AAEA-4DBF-9E09-E648F49F8F5B}.Release.ActiveCfg = Release|Win32
+		{AC685071-AAEA-4DBF-9E09-E648F49F8F5B}.Release.Build.0 = Release|Win32
+		{9B01E6D4-F4BD-4CAC-94C7-76037DF6634A}.Debug.ActiveCfg = Debug|Win32
+		{9B01E6D4-F4BD-4CAC-94C7-76037DF6634A}.Debug.Build.0 = Debug|Win32
+		{9B01E6D4-F4BD-4CAC-94C7-76037DF6634A}.Release.ActiveCfg = Release|Win32
+		{9B01E6D4-F4BD-4CAC-94C7-76037DF6634A}.Release.Build.0 = Release|Win32
+		{C4CBABF1-059C-41CC-B97B-1E046FDE9FED}.Debug.ActiveCfg = Debug|Win32
+		{C4CBABF1-059C-41CC-B97B-1E046FDE9FED}.Debug.Build.0 = Debug|Win32
+		{C4CBABF1-059C-41CC-B97B-1E046FDE9FED}.Release.ActiveCfg = Release|Win32
+		{C4CBABF1-059C-41CC-B97B-1E046FDE9FED}.Release.Build.0 = Release|Win32
+		{33D7A88E-00EB-4149-8233-26CFFC6987E1}.Debug.ActiveCfg = Debug|Win32
+		{33D7A88E-00EB-4149-8233-26CFFC6987E1}.Debug.Build.0 = Debug|Win32
+		{33D7A88E-00EB-4149-8233-26CFFC6987E1}.Release.ActiveCfg = Release|Win32
+		{33D7A88E-00EB-4149-8233-26CFFC6987E1}.Release.Build.0 = Release|Win32
+		{DB46B436-C9F8-445A-A820-FCDBF2BD7079}.Debug.ActiveCfg = Debug|Win32
+		{DB46B436-C9F8-445A-A820-FCDBF2BD7079}.Debug.Build.0 = Debug|Win32
+		{DB46B436-C9F8-445A-A820-FCDBF2BD7079}.Release.ActiveCfg = Release|Win32
+		{DB46B436-C9F8-445A-A820-FCDBF2BD7079}.Release.Build.0 = Release|Win32
+		{0A055C47-2A70-4845-968E-EB5E64DECA2D}.Debug.ActiveCfg = Debug|Win32
+		{0A055C47-2A70-4845-968E-EB5E64DECA2D}.Debug.Build.0 = Debug|Win32
+		{0A055C47-2A70-4845-968E-EB5E64DECA2D}.Release.ActiveCfg = Release|Win32
+		{0A055C47-2A70-4845-968E-EB5E64DECA2D}.Release.Build.0 = Release|Win32
+		{D8170A29-9F92-4B3C-8A67-F93704653E8C}.Debug.ActiveCfg = Debug|.NET
+		{D8170A29-9F92-4B3C-8A67-F93704653E8C}.Debug.Build.0 = Debug|.NET
+		{D8170A29-9F92-4B3C-8A67-F93704653E8C}.Release.ActiveCfg = Release|.NET
+		{D8170A29-9F92-4B3C-8A67-F93704653E8C}.Release.Build.0 = Release|.NET
+		{405C7FC0-8475-4F6C-88FB-B13BAB4A3BE6}.Debug.ActiveCfg = Debug|.NET
+		{405C7FC0-8475-4F6C-88FB-B13BAB4A3BE6}.Debug.Build.0 = Debug|.NET
+		{405C7FC0-8475-4F6C-88FB-B13BAB4A3BE6}.Release.ActiveCfg = Release|.NET
+		{405C7FC0-8475-4F6C-88FB-B13BAB4A3BE6}.Release.Build.0 = Release|.NET
+		{6C70CAF0-D330-4F52-B6CE-71C70DC1600F}.Debug.ActiveCfg = Debug|.NET
+		{6C70CAF0-D330-4F52-B6CE-71C70DC1600F}.Debug.Build.0 = Debug|.NET
+		{6C70CAF0-D330-4F52-B6CE-71C70DC1600F}.Release.ActiveCfg = Release|.NET
+		{6C70CAF0-D330-4F52-B6CE-71C70DC1600F}.Release.Build.0 = Release|.NET
+		{4B34D6B9-D185-4742-A204-70C490500754}.Debug.ActiveCfg = Debug|.NET
+		{4B34D6B9-D185-4742-A204-70C490500754}.Debug.Build.0 = Debug|.NET
+		{4B34D6B9-D185-4742-A204-70C490500754}.Release.ActiveCfg = Release|.NET
+		{4B34D6B9-D185-4742-A204-70C490500754}.Release.Build.0 = Release|.NET
+		{B1E6901B-9FE8-4B70-A649-EFBC42AA4908}.Debug.ActiveCfg = Debug|.NET
+		{B1E6901B-9FE8-4B70-A649-EFBC42AA4908}.Debug.Build.0 = Debug|.NET
+		{B1E6901B-9FE8-4B70-A649-EFBC42AA4908}.Release.ActiveCfg = Release|.NET
+		{B1E6901B-9FE8-4B70-A649-EFBC42AA4908}.Release.Build.0 = Release|.NET
+		{B03D454B-9119-47D7-8A09-D8BE8A7C781D}.Debug.ActiveCfg = Debug|.NET
+		{B03D454B-9119-47D7-8A09-D8BE8A7C781D}.Debug.Build.0 = Debug|.NET
+		{B03D454B-9119-47D7-8A09-D8BE8A7C781D}.Release.ActiveCfg = Release|.NET
+		{B03D454B-9119-47D7-8A09-D8BE8A7C781D}.Release.Build.0 = Release|.NET
+		{E1CF178D-FFFF-4DF3-BF28-DB333741BB0E}.Debug.ActiveCfg = Debug|.NET
+		{E1CF178D-FFFF-4DF3-BF28-DB333741BB0E}.Debug.Build.0 = Debug|.NET
+		{E1CF178D-FFFF-4DF3-BF28-DB333741BB0E}.Release.ActiveCfg = Release|.NET
+		{E1CF178D-FFFF-4DF3-BF28-DB333741BB0E}.Release.Build.0 = Release|.NET
+		{AD4668F0-3F2D-4212-9DDE-012C215B1467}.Debug.ActiveCfg = Debug|.NET
+		{AD4668F0-3F2D-4212-9DDE-012C215B1467}.Debug.Build.0 = Debug|.NET
+		{AD4668F0-3F2D-4212-9DDE-012C215B1467}.Release.ActiveCfg = Release|.NET
+		{AD4668F0-3F2D-4212-9DDE-012C215B1467}.Release.Build.0 = Release|.NET
+		{565D3F76-1917-4CFF-B84D-BF18C19A996C}.Debug.ActiveCfg = Debug|.NET
+		{565D3F76-1917-4CFF-B84D-BF18C19A996C}.Debug.Build.0 = Debug|.NET
+		{565D3F76-1917-4CFF-B84D-BF18C19A996C}.Release.ActiveCfg = Release|.NET
+		{565D3F76-1917-4CFF-B84D-BF18C19A996C}.Release.Build.0 = Release|.NET
+		{916C404E-1A03-48D2-B515-DC07368CE044}.Debug.ActiveCfg = Debug|.NET
+		{916C404E-1A03-48D2-B515-DC07368CE044}.Debug.Build.0 = Debug|.NET
+		{916C404E-1A03-48D2-B515-DC07368CE044}.Release.ActiveCfg = Release|.NET
+		{916C404E-1A03-48D2-B515-DC07368CE044}.Release.Build.0 = Release|.NET
+		{DEDC169F-3FC4-4189-B9F0-169C8DEBC11A}.Debug.ActiveCfg = Debug|.NET
+		{DEDC169F-3FC4-4189-B9F0-169C8DEBC11A}.Debug.Build.0 = Debug|.NET
+		{DEDC169F-3FC4-4189-B9F0-169C8DEBC11A}.Release.ActiveCfg = Release|.NET
+		{DEDC169F-3FC4-4189-B9F0-169C8DEBC11A}.Release.Build.0 = Release|.NET
+		{FDA999AB-7A52-4B49-B3CE-EA0B28AC0FF2}.Debug.ActiveCfg = Debug|.NET
+		{FDA999AB-7A52-4B49-B3CE-EA0B28AC0FF2}.Debug.Build.0 = Debug|.NET
+		{FDA999AB-7A52-4B49-B3CE-EA0B28AC0FF2}.Release.ActiveCfg = Release|.NET
+		{FDA999AB-7A52-4B49-B3CE-EA0B28AC0FF2}.Release.Build.0 = Release|.NET
+		{161D11E4-EFCE-4DD8-AB5C-2FA826B9C023}.Debug.ActiveCfg = Debug|.NET
+		{161D11E4-EFCE-4DD8-AB5C-2FA826B9C023}.Debug.Build.0 = Debug|.NET
+		{161D11E4-EFCE-4DD8-AB5C-2FA826B9C023}.Release.ActiveCfg = Release|.NET
+		{161D11E4-EFCE-4DD8-AB5C-2FA826B9C023}.Release.Build.0 = Release|.NET
+		{44F3DA6A-8031-4D3A-929E-B9634A6F32E5}.Debug.ActiveCfg = Debug|.NET
+		{44F3DA6A-8031-4D3A-929E-B9634A6F32E5}.Debug.Build.0 = Debug|.NET
+		{44F3DA6A-8031-4D3A-929E-B9634A6F32E5}.Release.ActiveCfg = Release|.NET
+		{44F3DA6A-8031-4D3A-929E-B9634A6F32E5}.Release.Build.0 = Release|.NET
+		{40000E2C-F78E-4649-BB66-52F3DF7D8BE0}.Debug.ActiveCfg = Debug|.NET
+		{40000E2C-F78E-4649-BB66-52F3DF7D8BE0}.Debug.Build.0 = Debug|.NET
+		{40000E2C-F78E-4649-BB66-52F3DF7D8BE0}.Release.ActiveCfg = Release|.NET
+		{40000E2C-F78E-4649-BB66-52F3DF7D8BE0}.Release.Build.0 = Release|.NET
+		{3664C486-B710-430D-886E-2CA8DC796AC3}.Debug.ActiveCfg = Debug|.NET
+		{3664C486-B710-430D-886E-2CA8DC796AC3}.Debug.Build.0 = Debug|.NET
+		{3664C486-B710-430D-886E-2CA8DC796AC3}.Release.ActiveCfg = Release|.NET
+		{3664C486-B710-430D-886E-2CA8DC796AC3}.Release.Build.0 = Release|.NET
+		{2BB12826-391E-4950-8277-B8883361768A}.Debug.ActiveCfg = Debug|.NET
+		{2BB12826-391E-4950-8277-B8883361768A}.Debug.Build.0 = Debug|.NET
+		{2BB12826-391E-4950-8277-B8883361768A}.Release.ActiveCfg = Release|.NET
+		{2BB12826-391E-4950-8277-B8883361768A}.Release.Build.0 = Release|.NET
+		{36BB69F0-A963-49D9-8626-E88A02FE0141}.Debug.ActiveCfg = Debug|.NET
+		{36BB69F0-A963-49D9-8626-E88A02FE0141}.Debug.Build.0 = Debug|.NET
+		{36BB69F0-A963-49D9-8626-E88A02FE0141}.Release.ActiveCfg = Release|.NET
+		{36BB69F0-A963-49D9-8626-E88A02FE0141}.Release.Build.0 = Release|.NET
+		{38F9E2D9-BDA9-4D32-95FD-B779B03C32BD}.Debug.ActiveCfg = Debug|.NET
+		{38F9E2D9-BDA9-4D32-95FD-B779B03C32BD}.Debug.Build.0 = Debug|.NET
+		{38F9E2D9-BDA9-4D32-95FD-B779B03C32BD}.Release.ActiveCfg = Release|.NET
+		{38F9E2D9-BDA9-4D32-95FD-B779B03C32BD}.Release.Build.0 = Release|.NET
+		{BE98BF56-A84E-43A4-847F-2AA3E551ADDD}.Debug.ActiveCfg = Debug|.NET
+		{BE98BF56-A84E-43A4-847F-2AA3E551ADDD}.Debug.Build.0 = Debug|.NET
+		{BE98BF56-A84E-43A4-847F-2AA3E551ADDD}.Release.ActiveCfg = Release|.NET
+		{BE98BF56-A84E-43A4-847F-2AA3E551ADDD}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

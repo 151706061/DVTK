@@ -1,0 +1,52 @@
+﻿body
+{
+	font-family: Calibri;
+	font-size: .8em;
+}
+
+table
+{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	font-size: 12px;
+	margin-bottom: 10px;
+	width: 600px;
+}
+
+table thead
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+td
+{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 1px;
+}
+
+td.error
+{
+	color: #FF0000;
+	text-align: center;
+}
+
+li
+{
+	color: #000000;
+}
+
+div.validationResult
+{
+	background-color: #FFF0F0;
+	border-color: #EE0000;
+	border-style: dashed;
+	border-width: 2px;
+}
+
+div.error
+{
+	color: #FF0000;
+}

@@ -1,0 +1,230 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8FA290A2-E942-439B-BEF6-19E46091612F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DVT</RootNamespace>
+    <AssemblyName>DVT</AssemblyName>
+    <ApplicationIcon>Resources\Dvt.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DVTK, Version=1.2.3.4, Culture=neutral, PublicKeyToken=5166403a8245d5cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DVTk_Library\DVTK.dll</HintPath>
+    </Reference>
+    <Reference Include="DvtkApplicationLayer, Version=1.2.3.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DVTk_Library\DvtkApplicationLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="DvtkData, Version=1.2.3.4, Culture=neutral, PublicKeyToken=5166403a8245d5cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DVTk_Library\DvtkData.dll</HintPath>
+    </Reference>
+    <Reference Include="DvtkDicomEmulators, Version=2.3.0.5, Culture=neutral, PublicKeyToken=5166403a8245d5cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DVTk_Library\DvtkDicomEmulators.dll</HintPath>
+    </Reference>
+    <Reference Include="DvtkDicomUnicodeConversion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=5166403a8245d5cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DVTk_Library\DvtkDicomUnicodeConversion.dll</HintPath>
+    </Reference>
+    <Reference Include="DVTKManagedCodeAdapter, Version=1.2.3.4, Culture=neutral, PublicKeyToken=5166403a8245d5cb, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DVTk_Library\DVTKManagedCodeAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="DvtkScriptSupport, Version=1.2.3.4, Culture=neutral, PublicKeyToken=5166403a8245d5cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DVTk_Library\DvtkScriptSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Source\DVT\AssemblyInfo.cs" />
+    <Compile Include="Source\DVT\ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\DVT\CredentialsCertificatesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\DVT\EventType.cs" />
+    <Compile Include="Source\DVT\FindForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\DVT\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\DVT\NodesInformation.cs" />
+    <Compile Include="Source\DVT\PassWordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\DVT\PathUtils.cs" />
+    <Compile Include="Source\DVT\PrintEmulatorStatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\DVT\ProjectForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\DVT\SaveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\DVT\SopClassesManager.cs" />
+    <Compile Include="Source\DVT\StorageSCUEmulatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\DVT\TimerMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\DVT\UserControlSessionTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source\DVT\UserSettings.cs" />
+    <Compile Include="Source\DVT\ValidationResultsManager.cs" />
+    <Compile Include="Source\DVT\WizardCreateCertificate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source\DVT\WizardNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Source\DVT\ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\DVT\CredentialsCertificatesForm.resx">
+      <DependentUpon>CredentialsCertificatesForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\DVT\FindForm.resx">
+      <DependentUpon>FindForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\DVT\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\DVT\PassWordForm.resx">
+      <DependentUpon>PassWordForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\DVT\PrintEmulatorStatusForm.resx">
+      <DependentUpon>PrintEmulatorStatusForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\DVT\ProjectForm2.resx">
+      <DependentUpon>ProjectForm2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\DVT\SaveForm.resx">
+      <DependentUpon>SaveForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\DVT\StorageSCUEmulatorForm.resx">
+      <DependentUpon>StorageSCUEmulatorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\DVT\TimerMessageForm.resx">
+      <DependentUpon>TimerMessageForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\DVT\UserControlSessionTree.resx">
+      <DependentUpon>UserControlSessionTree.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\DVT\WizardCreateCertificate.resx">
+      <DependentUpon>WizardCreateCertificate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source\DVT\WizardNew.resx">
+      <DependentUpon>WizardNew.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSHTML">
+      <Guid>{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>echo Copying files to "$(TargetDir)"
+
+Copy "$(ProjectDir)DVTk_Library\DVT_RESULTS.xslt" "$(TargetDir)"
+Copy "$(ProjectDir)DVTk_Library\CharacterSets.dat" "$(TargetDir)"
+Copy "$(ProjectDir)DVTk_Library\ImageDisplayFormat.dat" "$(TargetDir)"
+IF NOT EXIST "$(TargetDir)CharacterSets" (
+mkdir "$(TargetDir)CharacterSets"
+)
+xcopy /Y "$(ProjectDir)DVTk_Library\CharacterSets" "$(TargetDir)CharacterSets"
+Copy "$(ProjectDir)Resources\fold.gif" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\list.gif" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\open.gif" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\script.js" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\sortonmes.xsl" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\sortontype.xsl" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\viewonmes.xsl" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\createsum.xsl" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\create_results.xslt" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\viewonmesfiltered.xsl" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\createreport.xsl" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\createreport1.xsl" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\DVTKdllList.xml" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\dvtStartScreen.html" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\Lib\Microsoft.mshtml.dll" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\Lib\libeay32.dll" "$(TargetDir)"
+Copy "$(ProjectDir)Resources\Lib\ssleay32.dll" "$(TargetDir)"
+</PostBuildEvent>
+    <PreBuildEvent>REM SET LIBRARY_DIRECTORY=$(ProjectDir)..\DVTk_Library\Releases\1_2_3_4\$(ConfigurationName)
+SET LIBRARY_DIRECTORY=$(ProjectDir)..\DVTk_Library\Builds\$(ConfigurationName)
+
+IF NOT EXIST "%25LIBRARY_DIRECTORY%25" (
+ECHO Unable to find library directory "%25LIBRARY_DIRECTORY%25"
+EXIT -1
+)
+
+del /Q /S "$(ProjectDir)DVTk_Library\*.*"
+
+IF NOT EXIST "$(ProjectDir)DVTk_Library" (
+mkdir "$(ProjectDir)DVTk_Library"
+)
+
+xcopy /Y /E "%25LIBRARY_DIRECTORY%25" "$(ProjectDir)DVTk_Library"</PreBuildEvent>
+  </PropertyGroup>
+</Project>
